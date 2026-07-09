@@ -480,6 +480,103 @@
     alert(`📞 ${name} 전화번호 안내\n\n▶ 전화번호: ${phone}\n\n확인을 누르면 번호가 클립보드에 자동 복사됩니다.`);
   });
 
+  const legalData = {
+    about: {
+      title: "서비스 소개",
+      subtitle: "About Ulsan Rehab Guide",
+      content: `
+        <div class="legal-content">
+          <h3>울산 재활기관 찾기 가이드 소개</h3>
+          <p>본 서비스는 울산광역시 내의 재활의학과 보유 종합병원, 요양병원, 전문 재활병원 및 한방 전문 재활기관의 유용한 데이터들을 시민들이 편리하게 통합 검색할 수 있는 <strong>공익 정보 검색 플랫폼</strong>입니다.</p>
+          <h3>제작 취지 및 배경</h3>
+          <p>뇌졸중, 뇌손상, 척수손상 등 집중적인 재활 치료가 필요한 시기(회복기 골든타임)의 환자와 보호자들은 적합한 재활병원을 찾는 데 큰 어려움을 겪습니다. 본 서비스는 여러 공공기관에 산재되어 있는 병원 정보를 한 곳에 통합하여, 사용자가 원하는 조건(지역, 입원 여부, 산재/자보 가능 여부, 낮병동 등)을 쉽고 간편하게 필터링할 수 있도록 돕기 위해 비영리로 제작되었습니다.</p>
+          <h3>정보 취합 및 데이터 검증처</h3>
+          <p>본 가이드의 모든 기본 정보는 다음 공공기관의 공식 데이터 포털 공시 자료를 바탕으로 상시 검증 및 업데이트됩니다.</p>
+          <ul>
+            <li><strong>보건복지부(mohw.go.kr)</strong>: 공식 재활의료기관(회복기 재활) 지정 현황</li>
+            <li><strong>건강보험심사평가원(hira.or.kr)</strong>: 의료기관 종별, 재활의학과 개설 여부, 등록 전문의 수</li>
+            <li><strong>근로복지공단(comwel.or.kr)</strong>: 산재보험 재활인증의료기관 지정 데이터</li>
+            <li><strong>국립재활원(nrc.go.kr)</strong>: 권역재활 및 재활 관련 공공 의학 통계</li>
+          </ul>
+        </div>`
+    },
+    terms: {
+      title: "서비스 이용약관",
+      subtitle: "Terms of Service",
+      content: `
+        <div class="legal-content">
+          <h3>제1조 (목적)</h3>
+          <p>본 약관은 "울산 재활기관 찾기"(이하 "서비스")가 제공하는 모든 정보 서비스의 이용조건 및 절차, 이용자의 책임 등 필요한 기본 사항을 규정합니다.</p>
+          <h3>제2조 (정보의 한계와 면책)</h3>
+          <p>본 서비스는 신뢰할 수 있는 공공기관(심평원, 근로복지공단 등)의 공식 오픈데이터와 홈페이지 공고 등을 수집 및 가공하여 제공하고 있으나, 실시간 데이터 연동이 아니므로 실제 병원의 최신 병상 상태, 진료 가능 여부 등과 차이가 있을 수 있습니다. 따라서 이용자는 병원 방문 또는 치료 시작 전 해당 의료기관에 전화 문의를 거쳐 최종 확인을 행해야 할 책임이 있습니다.</p>
+          <h3>제3조 (손해배상 및 책임 제한)</h3>
+          <p>서비스 운영자는 무료로 제공되는 정보의 누락, 지연, 오류 등으로 인해 발생하는 사용자의 직간접적 손해(입원 지연, 진료 거부 등)에 대하여 법적인 책임 및 손해배상 책임을 지지 않습니다.</p>
+          <h3>제4조 (지적재산권)</h3>
+          <p>서비스의 디자인, 검색 로직 등은 공공의 목적으로 자유롭게 공유할 수 있으나, 상업적인 목적으로 무단 전재 또는 재배포하는 것은 금지됩니다.</p>
+        </div>`
+    },
+    privacy: {
+      title: "개인정보처리방침",
+      subtitle: "Privacy Policy",
+      content: `
+        <div class="legal-content">
+          <h3>1. 개인정보 수집 및 이용 목적</h3>
+          <p>본 서비스는 회원가입 없이 누구나 무료로 이용할 수 있는 공개 웹사이트로, 사용자의 실명, 연락처 등 일체의 개인식별정보를 직접 수집하거나 서버에 저장하지 않는 것을 철칙으로 합니다.</p>
+          <h3>2. 쿠키(Cookie) 수집 및 구글 애드센스 맞춤 광고 고지</h3>
+          <p>본 사이트는 서비스 개선을 위한 접속 통계 분석 및 광고 게재를 위해 쿠키를 활용할 수 있습니다.</p>
+          <ul>
+            <li>Google 등의 제3자 광고 파트너는 사용자가 본 사이트 또는 다른 웹사이트를 방문한 기록을 바탕으로 맞춤형 광고를 제공하기 위해 쿠키를 사용합니다.</li>
+            <li>맞춤 광고 노출을 원치 않으실 경우, 구글의 <a href="https://adssettings.google.com" target="_blank" rel="noopener">광고 설정 ↗</a> 페이지에서 맞춤 광고를 비활성화할 수 있습니다.</li>
+            <li>또한, <a href="https://www.aboutads.info" target="_blank" rel="noopener">www.aboutads.info ↗</a>에 접속하여 제3자 업체의 쿠키 사용을 해제하실 수도 있습니다.</li>
+          </ul>
+          <h3>3. 브라우저 저장소(LocalStorage) 활용</h3>
+          <p>이용자가 직접 선택하여 등록하는 "관심기관(즐겨찾기)" 목록은 서버로 전송되지 않고 이용자 본인의 스마트폰 또는 PC 브라우저 저장소인 로컬 스토리지(LocalStorage) 내에만 국한하여 임시 저장됩니다. 브라우저 쿠키/방문기록을 삭제할 경우 이 데이터도 함께 지워집니다.</p>
+          <h3>4. 방침의 변경</h3>
+          <p>본 방침은 구글 정책 변경 및 서비스 개선 등에 따라 변경될 수 있으며, 변경 사항은 본 지면을 통해 상시 업데이트되어 투명하게 확인하실 수 있습니다.</p>
+        </div>`
+    },
+    disclaimer: {
+      title: "책임한계 및 면책고지",
+      subtitle: "Legal Disclaimer",
+      content: `
+        <div class="legal-content">
+          <h3>1. 의료 진료 정보의 한계</h3>
+          <p>본 서비스의 데이터(전문의 수, 개설 진료과목, 낮병동 등)는 건강보험심사평가원(HIRA)의 공시자료와 근로복지공단 산재재활 지정 공고자료 등을 취합하여 만든 자료입니다. 병원의 일시적인 휴진, 전문의 퇴사, 요양병원 병상 부족 등으로 인해 실시간 상황과 다를 수 있습니다.</p>
+          <h3>2. 의료적 조언 배제</h3>
+          <p>본 서비스에서 제공되는 모든 콘텐츠 및 검색 결과는 참고 목적으로만 제공되며, 의사의 전문적인 진단, 처방 및 의료적 판단을 대신할 수 없습니다. 환자의 구체적인 증상과 진료 계획은 전문의와 직접 상담하십시오.</p>
+          <h3>3. 전화 문의 및 확인 권장</h3>
+          <p>외래 또는 입원을 진행하기 전에, 반드시 가이드 상세화면에 표시된 <strong>'전화번호 보기'</strong>를 클릭하여 병원 접수처 또는 원무과 입원 상담실과 직접 유선 상담을 거친 후 예약을 확정하시길 다시 한번 강력히 권고해 드립니다.</p>
+        </div>`
+    }
+  };
+
+  function openLegal(key) {
+    const page = legalData[key];
+    if (!page) return;
+    elements.dialogContent.innerHTML = `
+      <div class="dialog-header" style="background: var(--teal-900);">
+        <div class="dialog-title-wrap">
+          <span class="dialog-notice" style="background: var(--mint); color: var(--white); font-weight: 800; font-size: 11px; padding: 4px 10px; margin-bottom: 8px; display: inline-block; border-radius: 6px; letter-spacing: 0;">📋 법적 안내 및 고지</span>
+          <p>${escapeHtml(page.subtitle)}</p>
+          <h2 id="dialogTitle">${escapeHtml(page.title)}</h2>
+        </div>
+        <button class="dialog-close" aria-label="닫기">×</button>
+      </div>
+      <div class="dialog-body" style="background: var(--white);">
+        ${page.content}
+        <div class="dialog-actions" style="grid-template-columns: 1fr; margin-top: 25px; margin-bottom: 0;">
+          <button class="dialog-close" style="width: 100%; padding: 12px; font-weight: 800; border-radius: 12px; background: var(--teal-900); color: white; border: 0;">확인 및 닫기</button>
+        </div>
+      </div>
+    `;
+    elements.dialog.showModal();
+  }
+
+  $("#openAbout")?.addEventListener("click", (event) => { event.preventDefault(); openLegal("about"); });
+  $("#openTerms")?.addEventListener("click", (event) => { event.preventDefault(); openLegal("terms"); });
+  $("#openPrivacy")?.addEventListener("click", (event) => { event.preventDefault(); openLegal("privacy"); });
+  $("#openDisclaimer")?.addEventListener("click", (event) => { event.preventDefault(); openLegal("disclaimer"); });
+
   populateFilters();
   render();
 })();
